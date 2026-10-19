@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Privacy Policy for Tap Defense, the Android game by WonderBox Lab.">
+  <title>Privacy Policy | Tap Defense</title>
+  <style>
+    :root { color-scheme: light; --ink:#172b38; --muted:#52636d; --line:#dce5e5; --paper:#fff; --canvas:#f5f8f7; --accent:#136b68; --accent-dark:#0d504d; --soft:#e9f5f2; --warn:#8a5014; --warn-bg:#fff7e8; }
+    *, *::before, *::after { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--canvas); color:var(--ink); font:16px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    a { color:var(--accent-dark); text-underline-offset:3px; }
+    a:hover { color:#083e3b; }
+    a:focus-visible { outline:3px solid #e6a83d; outline-offset:3px; border-radius:2px; }
+    .skip { position:absolute; left:12px; top:-60px; z-index:5; padding:8px 12px; background:#fff; }
+    .skip:focus { top:12px; }
+    .shell { width:min(1120px,calc(100% - 40px)); margin-inline:auto; }
+    header { background:linear-gradient(135deg,#123d45 0%,#125f60 100%); color:#fff; padding:24px 0 52px; }
+    .brand { display:flex; align-items:center; gap:12px; font-weight:750; letter-spacing:.02em; }
+    .mark { display:grid; place-items:center; width:38px; height:38px; border:1px solid #8ecbc4; border-radius:11px; color:#d8f8ec; font-size:23px; line-height:1; }
+    .eyebrow { margin:46px 0 8px; color:#c8e9df; font-size:.78rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; }
+    h1 { max-width:760px; margin:0; font-size:clamp(2.25rem,5.5vw,4rem); line-height:1.12; letter-spacing:-.035em; }
+    .lede { max-width:730px; margin:18px 0 0; color:#e7f3f0; font-size:1.08rem; }
+    .meta { display:flex; flex-wrap:wrap; gap:10px; margin-top:26px; }
+    .meta span { padding:5px 11px; border:1px solid #7db5b2; border-radius:999px; font-size:.84rem; color:#f4fbf9; }
+    .layout { display:grid; grid-template-columns:225px minmax(0,1fr); gap:42px; align-items:start; padding:38px 0 80px; }
+    nav { position:sticky; top:22px; padding:15px 0; }
+    nav h2 { margin:0 0 10px; color:var(--muted); font-size:.77rem; letter-spacing:.12em; text-transform:uppercase; }
+    nav a { display:block; padding:5px 10px; border-left:2px solid transparent; color:var(--muted); text-decoration:none; font-size:.9rem; }
+    nav a:hover, nav a:focus-visible { border-left-color:var(--accent); color:var(--accent-dark); background:var(--soft); }
+    main { min-width:0; }
+    .notice { margin-bottom:24px; padding:20px 22px; border:1px solid #eed6a8; border-left:5px solid #bf792a; border-radius:12px; background:var(--warn-bg); }
+    .notice h2 { margin:0 0 5px; color:var(--warn); font-size:1.04rem; }
+    .notice p { margin:0; }
+    .card { padding:28px clamp(21px,4vw,40px); border:1px solid var(--line); border-radius:16px; background:var(--paper); box-shadow:0 10px 30px rgba(20,60,65,.045); }
+    section + section { margin-top:34px; padding-top:31px; border-top:1px solid var(--line); }
+    h2 { margin:0 0 12px; font-size:1.4rem; line-height:1.3; letter-spacing:-.015em; }
+    h3 { margin:24px 0 7px; font-size:1.03rem; }
+    p { margin:0 0 14px; }
+    p:last-child, ul:last-child { margin-bottom:0; }
+    ul { padding-left:1.35rem; margin:0 0 15px; }
+    li + li { margin-top:6px; }
+    .summary { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:11px; margin:20px 0 0; }
+    .summary div { padding:15px; border-radius:10px; background:var(--soft); }
+    .summary strong { display:block; margin-bottom:3px; font-size:.94rem; }
+    .summary span { display:block; color:var(--muted); font-size:.85rem; line-height:1.45; }
+    .table-wrap { overflow-x:auto; margin:18px 0 16px; }
+    table { width:100%; border-collapse:collapse; font-size:.91rem; }
+    th, td { padding:13px 14px; border:1px solid var(--line); vertical-align:top; text-align:left; }
+    th { background:#f0f6f5; line-height:1.35; }
+    td:first-child { min-width:140px; font-weight:650; }
+    .tag { display:inline-block; margin-right:5px; padding:2px 8px; border-radius:5px; background:#fff0cf; color:#694008; font-size:.78rem; font-weight:750; letter-spacing:.025em; white-space:nowrap; }
+    .small { color:var(--muted); font-size:.88rem; }
+    footer { padding:28px 0 42px; border-top:1px solid var(--line); color:var(--muted); font-size:.88rem; }
+    footer .shell { display:flex; justify-content:space-between; gap:15px; flex-wrap:wrap; }
+    @media (max-width:790px) { .layout { grid-template-columns:1fr; gap:15px; padding-top:24px; } nav { position:static; padding:0 0 8px; } nav .links { display:flex; gap:5px; flex-wrap:wrap; } nav a { padding:5px 9px; border:1px solid var(--line); border-radius:7px; background:#fff; } nav a:hover,nav a:focus-visible { border:1px solid var(--accent); } .summary { grid-template-columns:1fr; } }
+    @media (max-width:480px) { .shell { width:min(100% - 26px,1120px); } header { padding-bottom:38px; } .eyebrow { margin-top:34px; } .card { border-radius:12px; } th,td { padding:10px; } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+    @media print { body { background:#fff; } header { background:#fff; color:#000; padding-bottom:20px; } .lede,.eyebrow,.meta span { color:#333; } .meta span { border-color:#aaa; } .layout { display:block; padding:0; } nav { display:none; } .card { border:0; box-shadow:none; padding:0; } section { break-inside:avoid; } footer { padding-bottom:0; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to privacy policy</a>
+  <header>
+    <div class="shell">
+      <div class="brand"><span class="mark" aria-hidden="true">✦</span><span>WonderBox Lab</span></div>
+      <p class="eyebrow">Android game · Privacy Policy</p>
+      <h1>Privacy at Tap Defense</h1>
+      <p class="lede">This policy explains how Tap Defense uses information on your device and how Google services involved in ads, consent, and purchases may process information.</p>
+      <div class="meta"><span>App: Tap Defense</span><span>Package: com.zai.tapdefense</span><span>Last updated: 18 October 2026</span></div>
+    </div>
+  </header>
+  <div class="shell layout">
+    <nav aria-label="On this page">
+      <h2>On this page</h2>
+      <div class="links">
+        <a href="#scope">Scope</a><a href="#data">Information handled</a><a href="#ads">Advertising</a><a href="#consent">Consent &amp; choices</a><a href="#purchases">Purchases</a><a href="#children">Children</a><a href="#security">Security &amp; retention</a><a href="#rights">Your rights</a><a href="#contact">Contact</a><a href="#confirm">Before publishing</a>
+      </div>
+    </nav>
+    <main id="content">
+      <aside class="notice" aria-label="Publishing status">
+        <h2>Developer confirmation required before publication</h2>
+        <p>This policy reflects the Android project files reviewed on 18 October 2026. The source uses test AdMob IDs and expects a build-time Play licensing key that is not present in the source. WonderBox Lab must complete the checks at the end of this page before using this policy for a live Play listing.</p>
+      </aside>
+      <div class="card">
+        <section id="scope" aria-labelledby="scope-title">
+          <h2 id="scope-title">1. Who this policy covers</h2>
+          <p>WonderBox Lab provides Tap Defense for Android (<strong>com.zai.tapdefense</strong>). This policy covers the Android app. Tap Defense does not require a game account. The game itself can load and save progress offline; advertising, consent messages, and Google Play purchases use an internet connection when available.</p>
+          <div class="summary" aria-label="Privacy at a glance">
+            <div><strong>Offline play</strong><span>Game progress and settings are stored on the device.</span></div>
+            <div><strong>Google services</strong><span>AdMob, User Messaging Platform, and Play Billing are integrated.</span></div>
+            <div><strong>No game sign-in</strong><span>Purchases still use the user's Google Play account.</span></div>
+          </div>
+        </section>
+        <section id="data" aria-labelledby="data-title">
+          <h2 id="data-title">2. Information handled by the app and SDKs</h2>
+          <p>The Android source stores gameplay data in WebView local storage and app preferences. It does not show a developer-operated account service or analytics SDK. Integrated Google SDKs can process data when their features run, even though gameplay works offline.</p>
+          <div class="table-wrap"><table>
+            <thead><tr><th scope="col">Information</th><th scope="col">Purpose and handling</th></tr></thead>
+            <tbody>
+              <tr><td>Game progress and settings</td><td>Levels, stars, gems, characters, upgrades, and sound/vibration choices are saved locally so play can continue. The app also keeps a rewarded-ad claim count and interstitial timing in app preferences. Android backup and device transfer may include this local data when enabled.</td></tr>
+              <tr><td>Ad and device data</td><td>Google says its Mobile Ads SDK can automatically collect and share IP address (which can indicate approximate location), app and ad interactions such as launches, taps and video views, diagnostics, and device or account identifiers for advertising, measurement, and fraud prevention. The Android manifest removes advertising-ID and certain Privacy Sandbox ad permissions; this does not rule out other identifiers handled by Google.</td></tr>
+              <tr><td>Consent choices</td><td>Google's User Messaging Platform (UMP) checks whether a privacy message or options form is needed and manages applicable ad privacy choices. Choices and related technical information may be processed by Google to apply those preferences.</td></tr>
+              <tr><td>Purchase information</td><td>Google Play Billing provides product, purchase-status, token, and signed purchase details to the app to validate an optional purchase and restore access. The app stores signed purchase evidence locally; its backup rules exclude that purchase cache. Google Play processes the transaction and payment information under Google's policies.</td></tr>
+            </tbody>
+          </table></div>
+          <p>Tap Defense does not ask you to enter a name, email address, or payment-card number in the game. If you email WonderBox Lab, your message and email address will be used to respond to your request.</p>
+        </section>
+        <section id="ads" aria-labelledby="ads-title">
+          <h2 id="ads-title">3. Advertising and sharing with Google</h2>
+          <p>Tap Defense integrates Google AdMob for interstitial ads after eligible completed levels and optional rewarded ads that can grant in-game gems. Ad requests are configured for child-directed treatment, a G maximum content rating, and non-personalized ads. The app removes the Android advertising-ID permission. These settings do not mean that no information reaches Google: the Mobile Ads SDK may still send the data described above to Google to deliver and measure ads and protect against fraud.</p>
+          <p>Google's <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Mobile Ads SDK data disclosure</a>, <a href="https://policies.google.com/privacy">Privacy Policy</a>, and <a href="https://policies.google.com/technologies/partner-sites">information about partner apps</a> provide more detail. Ad content may be supplied through Google's ad systems; WonderBox Lab must verify the production AdMob setup and any added ad partners before publication.</p>
+        </section>
+        <section id="consent" aria-labelledby="consent-title">
+          <h2 id="consent-title">4. Consent and ad privacy choices</h2>
+          <p>The app uses Google UMP to check for applicable privacy messages. When a message is required and available, it can present choices before ads are requested. An <strong>Ad Privacy Options</strong> control appears in the game's Shop when UMP reports that it is required; it can reopen Google's options form while the device is online. If ad requests are not permitted, the app does not load ads. Your choices do not prevent offline play.</p>
+          <p>Available choices depend on your region and the messages configured in WonderBox Lab' AdMob account. For an explanation of UMP, see <a href="https://developers.google.com/admob/android/privacy">Google's UMP guidance</a>.</p>
+        </section>
+        <section id="purchases" aria-labelledby="purchases-title">
+          <h2 id="purchases-title">5. In-app purchases</h2>
+          <p>The Android project contains an optional one-time Google Play purchase to unlock game content and remove forced interstitial ads. Optional rewarded ads may remain available. Google Play handles checkout and payment; Tap Defense uses purchase status and signed purchase details to verify, save, and restore the entitlement. Tap Defense does not receive or store a payment-card number in its game code.</p>
+          <p>Purchases and refunds are subject to <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and the <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&amp;ldt=privacynotice">Google Payments Privacy Notice</a>. <span class="tag">VERIFY</span>The reviewed source does not include a Play licensing key; the purchase feature must be checked against the actual release before this page describes a live purchase experience.</p>
+        </section>
+        <section id="children" aria-labelledby="children-title">
+          <h2 id="children-title">6. Children's privacy</h2>
+          <p>The reviewed Android code applies child-directed ad treatment, a G ad-content rating, non-personalized ad requests, and UMP's under-age-of-consent setting to all users. It does not request a birth date or game account. Google's SDK data handling described above can still apply. Parents or guardians may contact WonderBox Lab about a child's information using the contact address below.</p>
+          <p><span class="tag">VERIFY</span>WonderBox Lab must confirm the intended Play target audience, the current Families requirements, the certified status of SDK versions used, AdMob account settings, and the ads actually delivered. Code settings alone cannot establish that every served ad or Play listing meets children's privacy requirements.</p>
+        </section>
+        <section id="security" aria-labelledby="security-title">
+          <h2 id="security-title">7. Security, retention, and deletion</h2>
+          <p>Game data and verified purchase evidence are saved in Android app storage. The app disallows cleartext network traffic in its Android configuration, and Google states that Mobile Ads SDK data is encrypted in transit. No system can guarantee absolute security.</p>
+          <p>Local gameplay data and app preferences remain until they are cleared, overwritten, or removed with the app, subject to Android backup and restore settings. Verified purchase evidence is excluded from the app's backup rules and can be removed when an online Google Play ownership check no longer finds the purchase. Google may retain ad, consent, and transaction information according to its own policies. WonderBox Lab does not operate a separate game account database in the reviewed project.</p>
+          <p><span class="tag">VERIFY</span>Actual backup and device-transfer behavior, and any operational records outside this source project, must be confirmed before publication.</p>
+        </section>
+        <section id="rights" aria-labelledby="rights-title">
+          <h2 id="rights-title">8. Your choices and rights</h2>
+          <ul>
+            <li>You can play offline. Ads and purchases need a connection.</li>
+            <li>Where available, use <strong>Shop → Ad Privacy Options</strong> to review applicable UMP choices.</li>
+            <li>You can clear Tap Defense's app data or uninstall the app to remove the on-device save. Android backups may remain under your device or Google backup settings; clearing data may also erase progress.</li>
+            <li>For access, deletion, or other privacy requests concerning information controlled by WonderBox Lab, contact the address below. The handling of a request depends on the information available and applicable law. For Google-held information, use <a href="https://myaccount.google.com/data-and-privacy">Google Account privacy controls</a> and Google's privacy resources.</li>
+          </ul>
+        </section>
+        <section id="contact" aria-labelledby="contact-title">
+          <h2 id="contact-title">9. Contact and policy changes</h2>
+          <p><strong>Developer:</strong> WonderBox Lab<br><strong>Game:</strong> Tap Defense (Android; com.zai.tapdefense)<br><strong>Privacy contact:</strong> emrulkayes031@gmail.com</p>
+          <p>We may update this policy if the game, its SDKs, or privacy practices change. The date at the top will be updated when a revised policy is published.</p>
+        </section>
+        <section id="confirm" aria-labelledby="confirm-title">
+          <h2 id="confirm-title">Developer confirmation before publishing</h2>
+          <p class="small">This section is intentionally visible so unresolved details are not mistaken for verified facts.</p>
+          <ul>
+            <li><span class="tag">REQUIRED</span>Confirm the privacy contact email remains active and the developer name matches the Play listing.</li>
+            <li><span class="tag">REQUIRED</span>Confirm the production build, AdMob app and ad-unit IDs, UMP messages, any ad partners, and whether the Play purchase is enabled. The reviewed source still contains Google's test ad IDs and uses an empty default for the build-time Play licensing key.</li>
+            <li><span class="tag">REQUIRED</span>Confirm the app's Play target audience and children's-ad compliance, including SDK certification and actual ad creative behavior.</li>
+            <li><span class="tag">REQUIRED</span>Match the Play Data safety form and in-app privacy-policy access to the released build, including SDK data, purchases, backup behavior, and any changes after this review.</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  </div>
+  <footer><div class="shell"><span>© WonderBox Lab · Tap Defense</span><span>Privacy Policy · Android</span></div></footer>
+</body>
+</html>
