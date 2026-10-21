@@ -31,9 +31,6 @@
     nav a { display:block; padding:5px 10px; border-left:2px solid transparent; color:var(--muted); text-decoration:none; font-size:.9rem; }
     nav a:hover, nav a:focus-visible { border-left-color:var(--accent); color:var(--accent-dark); background:var(--soft); }
     main { min-width:0; }
-    .notice { margin-bottom:24px; padding:20px 22px; border:1px solid #eed6a8; border-left:5px solid #bf792a; border-radius:12px; background:var(--warn-bg); }
-    .notice h2 { margin:0 0 5px; color:var(--warn); font-size:1.04rem; }
-    .notice p { margin:0; }
     .card { padding:28px clamp(21px,4vw,40px); border:1px solid var(--line); border-radius:16px; background:var(--paper); box-shadow:0 10px 30px rgba(20,60,65,.045); }
     section + section { margin-top:34px; padding-top:31px; border-top:1px solid var(--line); }
     h2 { margin:0 0 12px; font-size:1.4rem; line-height:1.3; letter-spacing:-.015em; }
@@ -51,7 +48,6 @@
     th, td { padding:13px 14px; border:1px solid var(--line); vertical-align:top; text-align:left; }
     th { background:#f0f6f5; line-height:1.35; }
     td:first-child { min-width:140px; font-weight:650; }
-    .tag { display:inline-block; margin-right:5px; padding:2px 8px; border-radius:5px; background:#fff0cf; color:#694008; font-size:.78rem; font-weight:750; letter-spacing:.025em; white-space:nowrap; }
     .small { color:var(--muted); font-size:.88rem; }
     footer { padding:28px 0 42px; border-top:1px solid var(--line); color:var(--muted); font-size:.88rem; }
     footer .shell { display:flex; justify-content:space-between; gap:15px; flex-wrap:wrap; }
@@ -69,25 +65,21 @@
       <p class="eyebrow">Android game · Privacy Policy</p>
       <h1>Privacy at Tap Defense</h1>
       <p class="lede">This policy explains how Tap Defense uses information on your device and how Google services involved in ads, consent, and purchases may process information.</p>
-      <div class="meta"><span>App: Tap Defense</span><span>Package: com.zai.tapdefense</span><span>Last updated: 18 October 2026</span></div>
+      <div class="meta"><span>App: Tap Defense</span><span>Package: com.zai.tapdefense</span><span>Last updated: 21 October 2026</span></div>
     </div>
   </header>
   <div class="shell layout">
     <nav aria-label="On this page">
       <h2>On this page</h2>
       <div class="links">
-        <a href="#scope">Scope</a><a href="#data">Information handled</a><a href="#ads">Advertising</a><a href="#consent">Consent &amp; choices</a><a href="#purchases">Purchases</a><a href="#children">Children</a><a href="#security">Security &amp; retention</a><a href="#rights">Your rights</a><a href="#contact">Contact</a><a href="#confirm">Before publishing</a>
+        <a href="#scope">Scope</a><a href="#data">Information handled</a><a href="#ads">Advertising</a><a href="#consent">Consent &amp; choices</a><a href="#purchases">Purchases</a><a href="#children">Children</a><a href="#security">Security &amp; retention</a><a href="#rights">Your rights</a><a href="#contact">Contact</a>
       </div>
     </nav>
     <main id="content">
-      <aside class="notice" aria-label="Publishing status">
-        <h2>Developer confirmation required before publication</h2>
-        <p>This policy reflects the Android project files reviewed on 18 October 2026. The source uses test AdMob IDs and expects a build-time Play licensing key that is not present in the source. WonderBox Lab must complete the checks at the end of this page before using this policy for a live Play listing.</p>
-      </aside>
       <div class="card">
         <section id="scope" aria-labelledby="scope-title">
           <h2 id="scope-title">1. Who this policy covers</h2>
-          <p>WonderBox Lab provides Tap Defense for Android (<strong>com.zai.tapdefense</strong>). This policy covers the Android app. Tap Defense does not require a game account. The game itself can load and save progress offline; advertising, consent messages, and Google Play purchases use an internet connection when available.</p>
+          <p>WonderBox Lab provides Tap Defense for Android (<strong>com.zai.tapdefense</strong>). This policy covers the Android app, whose stated target audience includes ages <strong>9–12 and 13–15</strong>. Tap Defense does not require a game account. The game itself can load and save progress offline; advertising, consent messages, and Google Play purchases use an internet connection when available.</p>
           <div class="summary" aria-label="Privacy at a glance">
             <div><strong>Offline play</strong><span>Game progress and settings are stored on the device.</span></div>
             <div><strong>Google services</strong><span>AdMob, User Messaging Platform, and Play Billing are integrated.</span></div>
@@ -110,8 +102,8 @@
         </section>
         <section id="ads" aria-labelledby="ads-title">
           <h2 id="ads-title">3. Advertising and sharing with Google</h2>
-          <p>Tap Defense integrates Google AdMob for interstitial ads after eligible completed levels and optional rewarded ads that can grant in-game gems. Ad requests are configured for child-directed treatment, a G maximum content rating, and non-personalized ads. The app removes the Android advertising-ID permission. These settings do not mean that no information reaches Google: the Mobile Ads SDK may still send the data described above to Google to deliver and measure ads and protect against fraud.</p>
-          <p>Google's <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Mobile Ads SDK data disclosure</a>, <a href="https://policies.google.com/privacy">Privacy Policy</a>, and <a href="https://policies.google.com/technologies/partner-sites">information about partner apps</a> provide more detail. Ad content may be supplied through Google's ad systems; WonderBox Lab must verify the production AdMob setup and any added ad partners before publication.</p>
+          <p>Tap Defense integrates Google AdMob for interstitial ads after eligible completed levels and optional rewarded ads that can grant in-game gems. Ad requests are configured for child-directed treatment, a G maximum content rating, and non-personalized ads for all users. The app's manifest removes the Android advertising-ID permission. These settings do not mean that no information reaches Google: the Mobile Ads SDK may still send the data described above to Google to deliver and measure ads and protect against fraud.</p>
+          <p>Google's <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Mobile Ads SDK data disclosure</a>, <a href="https://policies.google.com/privacy">Privacy Policy</a>, and <a href="https://policies.google.com/technologies/partner-sites">information about partner apps</a> provide more detail. Ad content may be supplied through Google's ad systems and applicable advertising partners.</p>
         </section>
         <section id="consent" aria-labelledby="consent-title">
           <h2 id="consent-title">4. Consent and ad privacy choices</h2>
@@ -121,18 +113,16 @@
         <section id="purchases" aria-labelledby="purchases-title">
           <h2 id="purchases-title">5. In-app purchases</h2>
           <p>The Android project contains an optional one-time Google Play purchase to unlock game content and remove forced interstitial ads. Optional rewarded ads may remain available. Google Play handles checkout and payment; Tap Defense uses purchase status and signed purchase details to verify, save, and restore the entitlement. Tap Defense does not receive or store a payment-card number in its game code.</p>
-          <p>Purchases and refunds are subject to <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and the <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&amp;ldt=privacynotice">Google Payments Privacy Notice</a>. <span class="tag">VERIFY</span>The reviewed source does not include a Play licensing key; the purchase feature must be checked against the actual release before this page describes a live purchase experience.</p>
+          <p>Purchases and refunds are subject to <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and the <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&amp;ldt=privacynotice">Google Payments Privacy Notice</a>.</p>
         </section>
         <section id="children" aria-labelledby="children-title">
           <h2 id="children-title">6. Children's privacy</h2>
-          <p>The reviewed Android code applies child-directed ad treatment, a G ad-content rating, non-personalized ad requests, and UMP's under-age-of-consent setting to all users. It does not request a birth date or game account. Google's SDK data handling described above can still apply. Parents or guardians may contact WonderBox Lab about a child's information using the contact address below.</p>
-          <p><span class="tag">VERIFY</span>WonderBox Lab must confirm the intended Play target audience, the current Families requirements, the certified status of SDK versions used, AdMob account settings, and the ads actually delivered. Code settings alone cannot establish that every served ad or Play listing meets children's privacy requirements.</p>
+          <p>Tap Defense targets ages 9–12 and 13–15. The reviewed Android code applies child-directed ad treatment, a G ad-content rating, non-personalized ad requests, and UMP's under-age-of-consent setting to all users. It does not request a birth date or game account. Google's SDK data handling described above can still apply. Parents or guardians may contact WonderBox Lab about a child's information using the contact address below.</p>
         </section>
         <section id="security" aria-labelledby="security-title">
           <h2 id="security-title">7. Security, retention, and deletion</h2>
           <p>Game data and verified purchase evidence are saved in Android app storage. The app disallows cleartext network traffic in its Android configuration, and Google states that Mobile Ads SDK data is encrypted in transit. No system can guarantee absolute security.</p>
           <p>Local gameplay data and app preferences remain until they are cleared, overwritten, or removed with the app, subject to Android backup and restore settings. Verified purchase evidence is excluded from the app's backup rules and can be removed when an online Google Play ownership check no longer finds the purchase. Google may retain ad, consent, and transaction information according to its own policies. WonderBox Lab does not operate a separate game account database in the reviewed project.</p>
-          <p><span class="tag">VERIFY</span>Actual backup and device-transfer behavior, and any operational records outside this source project, must be confirmed before publication.</p>
         </section>
         <section id="rights" aria-labelledby="rights-title">
           <h2 id="rights-title">8. Your choices and rights</h2>
@@ -145,18 +135,8 @@
         </section>
         <section id="contact" aria-labelledby="contact-title">
           <h2 id="contact-title">9. Contact and policy changes</h2>
-          <p><strong>Developer:</strong> WonderBox Lab<br><strong>Game:</strong> Tap Defense (Android; com.zai.tapdefense)<br><strong>Privacy contact:</strong> emrulkayes031@gmail.com</p>
+          <p><strong>Developer:</strong> WonderBox Lab<br><strong>Game:</strong> Tap Defense (Android; com.zai.tapdefense)<br><strong>Privacy contact:</strong> <a href="mailto:emrulkayes031@gmail.com">emrulkayes031@gmail.com</a></p>
           <p>We may update this policy if the game, its SDKs, or privacy practices change. The date at the top will be updated when a revised policy is published.</p>
-        </section>
-        <section id="confirm" aria-labelledby="confirm-title">
-          <h2 id="confirm-title">Developer confirmation before publishing</h2>
-          <p class="small">This section is intentionally visible so unresolved details are not mistaken for verified facts.</p>
-          <ul>
-            <li><span class="tag">REQUIRED</span>Confirm the privacy contact email remains active and the developer name matches the Play listing.</li>
-            <li><span class="tag">REQUIRED</span>Confirm the production build, AdMob app and ad-unit IDs, UMP messages, any ad partners, and whether the Play purchase is enabled. The reviewed source still contains Google's test ad IDs and uses an empty default for the build-time Play licensing key.</li>
-            <li><span class="tag">REQUIRED</span>Confirm the app's Play target audience and children's-ad compliance, including SDK certification and actual ad creative behavior.</li>
-            <li><span class="tag">REQUIRED</span>Match the Play Data safety form and in-app privacy-policy access to the released build, including SDK data, purchases, backup behavior, and any changes after this review.</li>
-          </ul>
         </section>
       </div>
     </main>
